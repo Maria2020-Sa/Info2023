@@ -42,7 +42,7 @@ public class Main {
         for (char caracteres : maria){
             System.out.println("caracteres = " + caracteres);// Esto imprimirá cada carácter en una línea
         }
-        
+        System.out.println("Maria E");
 
     }
 }
