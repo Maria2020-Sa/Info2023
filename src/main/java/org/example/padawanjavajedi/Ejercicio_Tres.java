@@ -20,20 +20,5 @@ public class Ejercicio_Tres {
         System.out.println(letraM + "" + letraA + "" + letraR + "" + letraI + "" + letraA2);
         System.out.println(letraM + letraA + letraR + letraI + letraA2);
 
-        List<Integer> numeros = new ArrayList<>();
-        numeros.add(1);
-        numeros.add(2);
-        for (Integer numero : numeros){
-            System.out.println (numero);
-        }
-
-        int num = 173;
-        if (num == 2){
-            System.out.println("El numero " + num + " es primo");
-        }else if (num % 2 != 0 && ((num/num==1)&&(num/1==num)) && num != 1){
-            System.out.println("El numero " + num + " es primo");
-        }else {
-            System.out.println("El número " + num + " no es primo");
-        }
     }
 }
